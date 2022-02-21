@@ -1,0 +1,62 @@
+
+body {
+    background-color: goldenrod;
+    text-align: center;
+}
+
+#chou1, #chou2, #buttons {
+    margin-top: 20px;
+}
+
+#view {
+    margin-right: 10px;
+}
+
+header {
+    color: red;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+#board {
+    margin-top: 30px;
+}
+
+.square {
+    border-style: solid;
+    justify-content: center;
+    background-size: 100px;
+    color: white;
+    height: 60px;
+    width: 60px;
+}
+
+.select {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+.scenario {
+    padding: 10px;
+    margin: 1px;
+}
+
+#board {
+    border-style: solid;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    color: goldenrod;
+}
+
+#board, .square {
+    display: flex;
+}
+
+.oneSix {
+    width: 20%;
+}
